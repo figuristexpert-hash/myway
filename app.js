@@ -16,7 +16,7 @@ $$('[data-calc]').forEach(c=>{const out=$('.sum',c);
   c.dataset.sum=document.title+': '+l.join(', ')+' — '+tot+' ₽'};
  c.addEventListener('input',f);f()});
 // === НАСТРОЙКИ: впишите свои данные ===
-const CFG={email:'your@email.com',phone:'',max:'',bot:'',worker:'',formspree:'',miniapp:'',giftApp:'',tg:''};
+const CFG={email:'figuristexpert.com',phone:'+7963609763',max:'=7963609763',bot:'',worker:'',formspree:'',miniapp:'',giftApp:'',tg:''};
 const pg=(location.pathname.split('/').pop()||'index').replace('.html','')||'index';
 $$('.tel').forEach(a=>CFG.phone?a.href='tel:'+CFG.phone.replace(/[^+\d]/g,''):a.style.display='none');
 $$('.mx').forEach(a=>CFG.max?(a.href=CFG.max,a.target='_blank'):a.style.display='none');
