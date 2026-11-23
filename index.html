@@ -4205,7 +4205,8 @@ $$('[data-calc]').forEach(c=>{const out=$('.sum',c);
   c.dataset.sum=document.title+': '+l.join(', ')+' — '+tot+' ₽'};
  c.addEventListener('input',f);f()});
 // === НАСТРОЙКИ: впишите свои данные ===
-const CFG={email:'itu-tai.msk@yandex.ru',phone:'',max:'',bot:'Myskating_bot',worker:'',yaForm:'',yaField:'',miniapp:'',giftApp:'',tg:''};
+const CFG={email:'figuristexpert@yandex.ru',phone:'+79636095763',max:'+79636095763',bot:'Myskating_bot',worker:'',yaForm:'https://forms.yandex.ru/u/6b01524095add50ec3bb2a37',yaField:'answer_quiz_long_text_9008994511950712',miniapp:'
+ ',giftApp:'',tg:''};
 const pg=(location.pathname.split('/').pop()||'index').replace('.html','')||'index';
 $$('.tel').forEach(a=>CFG.phone?a.href='tel:'+CFG.phone.replace(/[^+\d]/g,''):a.style.display='none');
 $$('.mx').forEach(a=>CFG.max?(a.href=CFG.max,a.target='_blank'):a.style.display='none');
